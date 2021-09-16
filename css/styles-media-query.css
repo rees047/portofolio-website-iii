@@ -9,6 +9,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+    
+    #main-container{
+        widht: 90%;
+    }
+
     .logo-container{
         flex-basis: 70%;
     }
