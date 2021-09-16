@@ -9,10 +9,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    
-    #main-container{
-        widht: 90%;
-    }
 
     .logo-container{
         flex-basis: 70%;
@@ -39,6 +35,11 @@
 
 
 @media only screen and (max-width: 980px) {
+
+    #main-container{
+        widht: 90%;
+    }
+    
     .slogan{
        font-size: 1em;
     }
