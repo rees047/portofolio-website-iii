@@ -1,0 +1,111 @@
+:root {
+  --teal: #10a19b;
+  --pink: #fc5da7;
+  --white: #ffffff;
+  --light-teal: #ebf9f8;
+  --light-pink: #ffd8e9;
+  --light-gray: #e4e5eb;  
+  --pointFive-em: 0.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: var(--teal);
+	background-image: url(../images/background.png);
+	background-size: 50%;
+	background-color: var(--light-teal);
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:visited{
+	font-style: italic;
+}
+
+a:hover, a:focus{
+	color: var(--pink);
+}
+
+a:active{
+	font-weight: normal;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+	margin: 4px;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+h1, h2, h3{
+	font-weight: bold;
+	color: var(--pink);
+}
+
+#main-container{
+	border: 1em solid var(--white);
+    margin: 50px auto;
+    width: 60%;
+    background-color: var(--white);
+    border-radius: 1em;
+	padding: 1% 2%;
+	box-shadow: 5px 10px #2e9e97;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex-child{
+	flex: 1;	
+}
+
+.text-teal{
+	color: var(--teal);
+}
+
+.logo-container{
+	flex-basis: 12%;
+}
+
+.slogan, .nav-container{
+	text-align: center;	
+}
+
+#about-me{
+	margin-top: 5%;
+}
+
+.profile-container{
+	background-color: var(--pink);
+    border-radius: 50% 0;
+    width: 60%;
+	margin: auto;
+}
+
+.profile-portrait{
+	border-radius: 50%;
+	border: 1.5em solid var(--white);
+}

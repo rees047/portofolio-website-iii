@@ -1,0 +1,44 @@
+@media only screen and (max-width: 300px) {
+
+   
+
+}
+
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-container{
+        flex-basis: 70%;
+    }
+
+    .slogan{
+        flex-basis: 100%;
+    }
+
+    
+}  
+
+@media only screen and (min-width: 601px) and (max-width: 980px) {
+    .logo-container{
+        flex-basis: 30%;
+    }
+
+    .slogan{
+        flex-basis: 60%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 980px) {
+    .slogan{
+       font-size: 1em;
+    }
+
+    #about-me .flex-child{
+        flex-basis: 100%;
+    }    
+}
