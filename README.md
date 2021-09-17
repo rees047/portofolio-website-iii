@@ -6,3 +6,7 @@
 So here it is, my portfolio. This should work on both desktop and mobile views.
 
 People's opinion about my achievements may vary but I know for a fact that I will continue to grow and improve as technology does the same.
+
+
+icons downloaded from: https://icons8.com/
+icon size: 480px
