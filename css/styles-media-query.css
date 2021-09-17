@@ -14,10 +14,9 @@
         flex-basis: 70%;
     }
 
-    .slogan{
-        flex-basis: 100%;
+    .slogan, .proj-box{
+        flex-basis: 100% !important;
     }
-
     
 }  
 

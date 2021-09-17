@@ -5,11 +5,16 @@
   --light-teal: #ebf9f8;
   --light-pink: #ffd8e9;
   --light-gray: #e4e5eb;  
+  --dark-teal: #2e9e97;
   --pointFive-em: 0.5em;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body{
@@ -24,18 +29,11 @@ body{
 a{
 	cursor: pointer;
 	text-decoration: none;
-}
-
-a:visited{
-	font-style: italic;
+	color: var(--white);
 }
 
 a:hover, a:focus{
 	color: var(--pink);
-}
-
-a:active{
-	font-weight: normal;
 }
 
 img{
@@ -56,7 +54,7 @@ h1{
 	font-size: 1.5em;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 	color: var(--pink);
 }
@@ -82,6 +80,10 @@ h1, h2, h3{
 	flex: 1;	
 }
 
+.text-center{
+	text-align: center;
+}
+
 .text-teal{
 	color: var(--teal);
 }
@@ -90,12 +92,24 @@ h1, h2, h3{
 	flex-basis: 12%;
 }
 
-.slogan, .nav-container{
-	text-align: center;	
+.slogan{
+	text-align: center;
 }
 
-#about-me{
-	margin-top: 5%;
+.nav-container ul{
+	background-color: var(--teal);
+	border-radius: 2em;
+	text-align: center;
+}
+
+.nav-container ul li{
+	padding: 0.25em;
+}
+
+.nav-container ul li:hover, .nav-container ul li:focus{
+	background-color: var(--white);
+	color: var(--pink);
+	border-radius: 2em;
 }
 
 .profile-container{
@@ -107,5 +121,60 @@ h1, h2, h3{
 
 .profile-portrait{
 	border-radius: 50%;
-	border: 1.5em solid var(--white);
+	border: 1em solid var(--white);
+	transition: opacity 1s ease-in-out;
 }
+
+.hello-hand{
+	width: 10%;
+	margin-right: 2%;
+}
+
+.section{
+	padding: 2% 0;
+	border-top: 0.25em solid var(--teal);
+}
+
+.mini-caption{
+	text-align: center;
+    margin-top: 0;
+    margin-bottom: -12px;
+}
+
+#skills .skills-box{
+	background-color: var(--pink);
+	flex-basis: 31%;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 0.50em;
+	box-shadow: 4px 8px var(--light-pink);
+	color: var(--white);
+}
+
+.skills-title{
+	color: var(--white);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#projects .proj-box{
+	background-color: var(--light-teal);
+	flex-basis: 40%;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 0.50em;
+	box-shadow: 4px 8px var(--dark-teal);
+	color: var(--teal);
+	line-height: 1.25;
+	text-align: justify;
+	padding: 2%;
+
+}
+
+.proj-title{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
